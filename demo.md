@@ -2,7 +2,15 @@
 
 ```python
 import math
-print(3**2)
+def add(n):
+    if n==1:
+        return 1
+    else:
+        return n+add(n-1)
+
+print(add(3**2))
+
 ```
 
 ##二级标题
+稍微有点苦难
